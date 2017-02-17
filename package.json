@@ -1,0 +1,26 @@
+{
+  "name": "ngrok-desktop",
+  "version": "1.0.0",
+  "description": "A simple menubar app for ngrok",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/rmanalan/ngrok-desktop",
+  "keywords": [
+    "Electron",
+    "ngrok"
+  ],
+  "author": {
+    "name": "Rich Manalang",
+    "email": "rich.manalang@gmail.com",
+    "url": "https://twitter.com/rmanalan"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "menubar": "^5.2.3"
+  }
+}
